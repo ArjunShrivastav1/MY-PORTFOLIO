@@ -6,6 +6,8 @@
     <title>MY PORTFOLIO</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 
 <body>
@@ -16,7 +18,7 @@
         <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar">
             <a href="#home" style="--i:1;" class="active">Home</a>
-            <a href="#about" style="--i:2;">About</a>
+            <a href="#aboutBox" style="--i:2;">About</a>
             <a href="#skill" style="--i:3;">Skill</a>
             <a href="#portfolio" style="--i:4;">Portfolio</a>
             <a href="#contact" style="--i:5;">Contact</a>
@@ -30,7 +32,7 @@
             <h3>Hello, It's Me</h3>
             <h1>Arjun Shrivastav</h1>
             <h3>And I'm A <span class="multiple-text"></span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, nesciunt.</p>
+            <p>I like to craft solid and scalable frontend products with great user experiences</p>
             <div class="social-media">
                 <a href="https://www.facebook.com/arjun.srivastava.904750" style="--i:7"><i class='bx bxl-facebook'></i></a>
                 <a href="https://www.instagram.com/arjun_shrivastav_/" style="--i:8"><i class='bx bxl-instagram-alt'></i></a>
@@ -41,7 +43,8 @@
             <button id="resume-button">Download Resume</button>
             <div id="resume-popup" class="popup">
                 <span class="close-btn">&times;</span>
-                <embed src="assets/1-d1d87126-4ca1-4275-af13-a3ae53cf1b80.pdf" type="application/pdf" width="500px" height="600px" />
+                <embed src="assets/Professional resume final 2 (2).pdf" /> 
+                 <!-- width="600px" height="600px"-->
             </div>
         </div>
         <div class="home-img">
@@ -50,18 +53,20 @@
     </section>
 
     <!--            ABOUT SECTION                -->
-
-<section class="about" id="about">
-    <div class="about-img">
-        <img src="assets/homeImg.png" alt="">
-    </div>
-    <div class="about-content">
+    <section class="aboutBox"  id="aboutBox">
         <h2 class="heading">About <span>Me</span></h2>
-        <h3>Frontend developer</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure ratione repellat sunt repellendus, veritatis distinctio minus iste cupiditate quisquam voluptate voluptatum, et molestias.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus consequuntur quos!</p>
-        <a href="#" class="btn">Read more</a>
-    </div>
-</section>
+        <div class="about">
+            <div class="about-img">
+                <img src="assets/homeImg.png" alt="">
+            </div>
+            <div class="about-content">
+                <h3>Frontend developer</h3>
+                <p>I'm Arjun Srivastava, a final-year BCA student at VSICS with a passion for web development and programming. Skilled in HTML, CSS, JavaScript, Java, Python Data structure and algorithms (DSA). Currently, I'm exploring Al generative and enhancing my DSA knowledge. I completed a Java internship with Codsoft and Web development internship with OctaNet. I'm always eager to learn, grow, and collaborate on innovation projects that make a positive impact.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+
  
 
     <!--            SKILL SECTION                -->
@@ -84,7 +89,7 @@
         <div class="skillContainer">
             <div class="skills-area">
             <div class="skill">
-                <div class="skill-title"> <img src="html.png"> HTML</img> </div>
+                <div class="skill-title"> <img src="assets/html.png"> HTML</img> </div>
                 <div class="skill-bar"></div>
                 <div class="html skill-fill">
                     <span class="skill-percet">95%</span>
@@ -93,7 +98,7 @@
         </div>
         <div class="skills-area">
             <div class="skill">
-                <div class="skill-title"><img src="social.png"> CSS</div>
+                <div class="skill-title"><img src="assets/social.png"> CSS</div>
                 <div class="skill-bar"></div>
                 <div class="CSS skill-fill">
                     <span class="skill-percet">95%</span>
@@ -102,7 +107,7 @@
         </div>
         <div class="skills-area">
             <div class="skill">
-                <div class="skill-title"><img src="js.png" > JAVA SCRIPT</div>
+                <div class="skill-title"><img src="assets/js.png" > JAVA SCRIPT</div>
                 <div class="skill-bar"></div>
                 <div class="JS skill-fill">
                     <span class="skill-percet">80%</span>
@@ -111,7 +116,7 @@
         </div>
         <div class="skills-area">
             <div class="skill">
-                <div class="skill-title"><img src="java.png"> JAVA</div>
+                <div class="skill-title"><img src="assets/java.png"> JAVA</div>
                 <div class="skill-bar"></div>
                 <div class="JAVA skill-fill">
                     <span class="skill-percet">70%</span>
@@ -120,7 +125,7 @@
         </div>
         <div class="skills-area">
             <div class="skill">
-                <div class="skill-title"><img src="python.png"> PYTHON</div>
+                <div class="skill-title"><img src="assets/python.png"> PYTHON</div>
                 <div class="skill-bar"></div>
                 <div class="PYTHON skill-fill">
                     <span class="skill-percet">70%</span>
@@ -129,7 +134,7 @@
         </div>
         <div class="skills-area">
             <div class="skill">
-                <div class="skill-title"><img src="hierarchical.png"> DSA</div>
+                <div class="skill-title"><img src="assets/hierarchical.png"> DSA</div>
                 <div class="skill-bar"></div>
                 <div class="DSA skill-fill">
                     <span class="skill-percet">75%</span>
@@ -138,7 +143,7 @@
         </div>
         <div class="skills-area">
             <div class="skill">
-                <div class="skill-title"><img src="c-.png"> C++</div>
+                <div class="skill-title"><img src="assets/c-.png"> C++</div>
                 <div class="skill-bar"></div>
                 <div class="C skill-fill">
                     <span class="skill-percet">80%</span>
@@ -147,7 +152,7 @@
         </div>
         <div class="skills-area">
             <div class="skill">
-                <div class="skill-title"><img src="science.png"> REACT</div>
+                <div class="skill-title"><img src="assets/science.png"> REACT</div>
                 <div class="skill-bar"></div>
                 <div class="REACT skill-fill">
                     <span class="skill-percet">65%</span>
@@ -166,52 +171,110 @@
         <div class="portfolio-box">
             <img src="assets/maxresdefault.jpg" alt="">
             <div class="portfolio-layer">
-            <h4>web design</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil praesentium dolore fugiat facilis dignissimos.</p>
+            <h4>Netflix</h4>
+            <p>Frontend Clone using HTML, CSS, JavaScript</p>
             <a href=""><i class='bx bx-link-external' ></i></a>
             </div>
         </div>
         <div class="portfolio-box">
-            <img src="assets/tictac" alt="">
+            <img src="assets/rock,paper.png" alt="">
             <div class="portfolio-layer">
-            <h4>web design</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil praesentium dolore fugiat facilis dignissimos.</p>
+            <h4>Rock Paper Scissors </h4>
+            <p>Game using HTML, CSS, JavaScript</p>
             <a href=""><i class='bx bx-link-external' ></i></a>
         </div>
         </div>
         <div class="portfolio-box">
             <img src="assets/currency.png" alt="">
             <div class="portfolio-layer">
-            <h4>web design</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil praesentium dolore fugiat facilis dignissimos.</p>
+            <h4>Currency Converter</h4>
+            <p>website using HTML, CSS, JavaScript</p>
             <a href=""><i class='bx bx-link-external' ></i></a>
             </div>
         </div>
         <div class="portfolio-box">
             <img src="assets/currency.png" alt="">
             <div class="portfolio-layer">
-            <h4>web design</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil praesentium dolore fugiat facilis dignissimos.</p>
+            <h4>Currency Converter</h4>
+            <p>website using HTML, CSS, JavaScript</p>
             <a href=""><i class='bx bx-link-external' ></i></a>
             </div>
         </div>
     </div>
  </section>
 
+ <!-- Sliding card  -->
+
+<!-- <div class="slide-heading"> <h2 id="heading">Certification</h2></div>
+  <div class="slider">
+ <div class="wrapper">
+    <i id="left" class="fa-solid  fas fa-angle-left"></i>
+    <ul class="carousel">
+        <li class="card">
+            <div class="img"><img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240213150115/ppp.png" 
+                                  alt="" draggable="false"> </div>
+            <h2 style="color: green; font-weight:bold;">
+                  GeeksforGeeks
+              </h2>
+            <span>Coding Platform</span>
+        </li>
+        <li class="card">
+            <div class="img"><img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240213150115/ppp.png" 
+                                  alt="" draggable="false"> </div>
+            <h2 style="color: green; font-weight:bold;">GeeksforGeeks</h2>
+            <span>Coding Platform</span>
+        </li>
+        <li class="card">
+            <div class="img"><img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240213150115/ppp.png" 
+                                  alt="" draggable="false"> </div>
+            <h2 style="color: green; font-weight:bold;">GeeksforGeeks</h2>
+            <span>Coding Platform</span>
+        </li>
+        <li class="card">
+            <div class="img"><img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240213150115/ppp.png" 
+                                  alt="" draggable="false"> </div>
+            <h2 style="color: green; font-weight:bold;">GeeksforGeeks</h2>
+            <span>Coding Platform</span>
+        </li>
+        <li class="card">
+            <div class="img"><img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240213150115/ppp.png" 
+                                  alt="" draggable="false"> </div>
+            <h2 style="color: green; font-weight:bold;">GeeksforGeeks</h2>
+            <span>Coding Platform</span>
+        </li>
+        <li class="card">
+            <div class="img"><img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240213150115/ppp.png" 
+                                  alt="" draggable="false"> </div>
+            <h2 style="color: green; font-weight:bold;">GeeksforGeeks</h2>
+            <span>Coding Platform</span>
+        </li>
+    </ul>
+    <i id="right" class="fa-solid fas fa-angle-right"></i>
+</div>
+</div> -->
+
+
 <!-- CONTACT SECTION  -->
 
 <section class="contact" id="contact">
     <h2 class="heading">Get in <span>Touch</span></h2>
-    <form action="#">
+    <form action="https://api.web3forms.com/submit" method="POST">
         <div class="input-box">
-            <input type="text" name="" placeholder=" Full Name">
-            <input type="email" name="" placeholder=" Email Address">
+            <input type="hidden" name="access_key" value="7a9f39ce-d481-44d5-84c6-178f492795dc">
+            <input type="text" name="Name" placeholder=" Full Name">
+            <input type="email" name="Email" placeholder=" Email Address">
         </div>
         <div class="input-box">
-            <input type="number" name="" placeholder="Mobile Number">
-            <input type="text" name="" placeholder=" Email Subject">
+            <input type="number" name="Number" placeholder="Mobile Number">
+            <input type="text" name="Subject" placeholder=" Email Subject">
         </div>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
         <input type="submit" value="Send Message" class="btn">
     </form>
 </section>
